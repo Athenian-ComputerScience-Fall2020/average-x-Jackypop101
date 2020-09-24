@@ -6,11 +6,21 @@ def avg(user_list):
     return average
 
 if __name__ == '__main__':
-    x = int(input("Please enter a number:"))
-    y = int(input("Please enter another number:"))
-    z = int(input("Please enter another number:"))
-    q = int(input("Please enter another number:"))
-    print(avg([x, y, z, q]))
+    user_list = []
+    num = 0
+    while num != ("done"):
+        num = input("Enter a number, Enter done if done:")
+        if num == ("done"):
+            break
+        user_list.append(int(num))
+    print(avg(user_list))
+
+
+    #x = int(input("Please enter a number:"))
+    #y = int(input("Please enter another number:"))
+    #z = int(input("Please enter another number:"))
+    #q = int(input("Please enter another number:"))
+    #print(avg([x, y, z, q]))
 
     # test your fucntion with this print statement before writing the input loop
     # Put the values you want to test in for x,y and z
