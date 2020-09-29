@@ -1,5 +1,5 @@
 # Collaborators (including web sites where you got help: (enter none if you didn't need help)
-#
+# Megan 
 
 def avg(user_list):
     average = sum(user_list) / len(user_list)
